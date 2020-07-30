@@ -1,4 +1,4 @@
-public class greatCircle {
+public class GreatCircle {
     public static void main(String[] args) {
 
         double x1 = Double.parseDouble(args[0]);
@@ -26,8 +26,7 @@ public class greatCircle {
                 Math.asin(
                         Math.sqrt(
                                 Math.pow(Math.sin(
-                                        (x2Rad - x1Rad) / 2)
-                                        , 2) +
+                                        (x2Rad - x1Rad) / 2), 2) +
                                         Math.cos(x1Rad) * Math.cos(x2Rad) *
                                                 Math.pow(Math.sin(
                                                         (y2Rad - y1Rad) / 2), 2)
